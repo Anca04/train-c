@@ -1,0 +1,15 @@
+I implemented the train through a structure, where I included the sentinel and 
+the mecanic. I have defined the structures for the queue and the stack as well.
+I have implemented the initialization, node insertion and move functions, 
+respecting the related requirements. For the write function, I extract the 
+symbols with strtok and put them one after one in an array of type char, and I 
+did the same for the strings from the search functions. I also implemented the 
+functions of deleting the current node and deleting the list, the list returning
+to its initial form, in this case. I also added display functions. For the queue 
+and the stack, I have implemented the functions of adding commands, deleting the 
+first or last element, testing if they are empty. I reverse the queue with the 
+help of a stack. I make sure during the entire program that the mecanic is in 
+the correct position. I use an interger(position) to retain the position of the 
+mecanic. In main, I read from file and write in an output file. I also read the 
+commands and execute the ones which should not be put in the queue. 
+I obtained 96 points on the tests.
